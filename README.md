@@ -18,6 +18,7 @@ query myQuery($msg: String!) {
 }
 ```
 ```
+# Variables
 {
   "msg": "my message"
 }
