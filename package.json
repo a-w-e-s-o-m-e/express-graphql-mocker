@@ -1,0 +1,27 @@
+{
+  "name": "tiny-graphql-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "express-graphql": "0.11.0",
+    "graphql": "15.3.0"
+  },
+  "description": "This is a tiny implementation of NodeJS server using Express and GraphQL. Mostly a boilerplate for bootstraping a quick and dirty GQL server.",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-w-e-s-o-m-e/express-graphql-mocker.git"
+  },
+  "author": "a-w-e-s-o-m-e",
+  "bugs": {
+    "url": "https://github.com/a-w-e-s-o-m-e/express-graphql-mocker/issues"
+  },
+  "homepage": "https://github.com/a-w-e-s-o-m-e/express-graphql-mocker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
